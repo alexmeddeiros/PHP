@@ -36,7 +36,7 @@ else
 
 
 echo "<hr>";
-// O xor só retorna verdadeiro se apenas uma for verdadeira, se as duas for TRUE ele retorna false
+// O and só retorna verdadeiro se apenas uma for verdadeira, se as duas for DIREFENTE DE true  POR CAUSA DA "!" ele retorna false
 if(!($idade == 25) and ($nome == "Alex"))
 	echo "É verdadeiro";
 else

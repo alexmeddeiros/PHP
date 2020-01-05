@@ -6,6 +6,7 @@ $media = 6;
 
 //     codição    if = ?     else = : 
 echo ($media >= 7) ? "Aprovado" : "Reprovado";
+//imptime APROVAO ou  REPROVADO se IF dor >= 7
 echo "<hr>";
 
 // ====== SWITCH =======

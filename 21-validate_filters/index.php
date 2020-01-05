@@ -35,8 +35,6 @@ if(isset($_POST['enviar-formulario']))
 	if(!$ip = filter_input(INPUT_POST, 'ip', FILTER_VALIDATE_IP))
 		$erros[] = "IP inválido";
 
-	if(!$url = filter_input(INPUT_POST, 'url', FILTER_VALIDATE_URL))
-		$erros[] = "URL inválido";
 
 
 	// Exibe os erros
@@ -55,7 +53,6 @@ if(isset($_POST['enviar-formulario']))
 		Email: <input type="email" name="email"><br>
 		Peso: <input type="text" name="peso"><br>
 		IP: <input type="text" name="ip"><br>
-		URL: <input type="text" name="url"><br>
 		<button type="submit" name="enviar-formulario">Enviar</button>
 	</form>
 

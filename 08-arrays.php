@@ -40,6 +40,8 @@ echo "<hr>";
  *São quando os índices ou chaves são STRINGS
  */
 $pessoas = array("nome"=>"Alex", "idade"=>29, "altura"=>1.75, "cidade"=>"Curitiba", "relacionamento"=>"Casado");
+
+//EXIVBE A IDADE
 echo $pessoas["nome"].' '.$pessoas['idade'];
 echo "<br>";
 echo "<br>";
@@ -50,9 +52,9 @@ echo "<hr>";
 
 // ARRAY MULTIDIMENSIONAIS
 $times = array(
-		"cariocas"=>array("Vasco", "Flamengo", "Fluminense"),
-		"paulistas"=>array("Campeao"=>"Palmeiras", "Vice"=>"São Paulo", "Terceiro"=>"Santos"),
-		"Baianos"=>array("Bahia", "Vitória")
+		"cariocas"	=>array("Vasco", "Flamengo", "Fluminense"),
+		"paulistas"	=>array("Campeao"=>"Palmeiras", "Vice"=>"São Paulo", "Terceiro"=>"Santos"),
+		"Baianos"	=>array("Bahia", "Vitória")
 		); 
 foreach ($times['paulistas'] as $indice => $valor) {
 	echo $indice." : ".$valor."<br>";

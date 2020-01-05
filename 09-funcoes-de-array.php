@@ -17,6 +17,7 @@
 
 
 $nomes = array("Marido"=>"Alex", "Filho"=>"Anthony", "Esposa"=>"Sabrina");
+
 if(is_array($nomes)):
 	echo "é um array";
 else:
